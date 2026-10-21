@@ -4,12 +4,16 @@ Landing page de la agencia, construida con **React + Vite + Tailwind CSS**. Pens
 
 ## Desarrollo
 
+Este proyecto usa **pnpm** (`packageManager` en `package.json`). Si no lo tienes: `corepack enable` o `npm i -g pnpm`.
+
 ```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # genera /dist
-npm run preview  # sirve el build localmente
+pnpm install
+pnpm dev         # http://localhost:5173
+pnpm build       # genera /dist
+pnpm preview     # sirve el build localmente
 ```
+
+`pnpm-workspace.yaml` autoriza el script de instalación de `esbuild` (pnpm bloquea los scripts de dependencias por defecto).
 
 ## Estructura
 
@@ -27,7 +31,8 @@ code.html           Diseño original de referencia
 
 1. Sube el proyecto a un repositorio de GitHub.
 2. En vercel.com → **Add New Project** → importa el repo.
-3. Vercel detecta Vite solo (build `npm run build`, output `dist`). Pulsa **Deploy**.
+3. Vercel detecta Vite solo y usa pnpm al encontrar `pnpm-lock.yaml` (build `pnpm build`, output `dist`). Pulsa **Deploy**.
+   - Para que Vercel use la misma versión de pnpm que está en `packageManager`, añade en **Settings → Environment Variables** la variable `ENABLE_EXPERIMENTAL_COREPACK=1` antes del primer deploy.
 
 `vercel.json` ya redirige todas las rutas a `index.html` (excepto `/api/*`), así que el sitio está listo para tener más páginas.
 

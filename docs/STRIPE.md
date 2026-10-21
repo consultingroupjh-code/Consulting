@@ -49,7 +49,7 @@ Piezas:
 
 ### 2.3 Herramientas locales
 - [ ] Node.js 18+ (ya instalado)
-- [ ] Vercel CLI: `npm i -g vercel`, que permite correr `/api` en local con `vercel dev`
+- [ ] Vercel CLI: `pnpm add -g vercel`, que permite correr `/api` en local con `vercel dev`
 - [ ] Stripe CLI (https://docs.stripe.com/stripe-cli), que permite recibir webhooks en local
 
 ### 2.4 Decisiones de negocio (definir antes de programar)
@@ -81,7 +81,7 @@ En Vercel: **Project → Settings → Environment Variables**, con las mismas va
 
 ### Paso 3: Instalar el SDK
 ```bash
-npm install stripe
+pnpm add stripe
 ```
 No hace falta `@stripe/stripe-js` en el frontend: con Checkout basta con redirigir a la URL que devuelve el servidor.
 
@@ -179,7 +179,7 @@ Lo natural es crear una sección o página de **Planes y precios** con un botón
 - `/pago-exitoso`: agradecimiento y próximos pasos. Opcionalmente se consulta `session_id` desde una función `api/session.js` para mostrar el resumen.
 - `/pago-cancelado`: mensaje y botón para reintentar.
 
-Para tener rutas reales hace falta un router (`npm install react-router-dom`). `vercel.json` ya redirige las rutas a `index.html`.
+Para tener rutas reales hace falta un router (`pnpm add react-router-dom`). `vercel.json` ya redirige las rutas a `index.html`.
 
 ### Paso 9: Probar en local
 ```bash
