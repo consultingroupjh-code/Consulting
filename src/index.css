@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+  /* Compensa el header fijo al navegar con anclas */
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@layer components {
+  /* Padding lateral responsivo (el diseño original usaba 5rem fijo) */
+  .page-x {
+    @apply px-gutter-mobile md:px-margin-tablet lg:px-margin-desktop;
+  }
+  .eyebrow {
+    @apply font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold;
+  }
+  .section-title {
+    @apply font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg font-bold text-on-surface tracking-tight;
+  }
+  .form-field {
+    @apply h-12 px-space-md rounded-lg bg-surface border-0 outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm;
+  }
+  .form-label {
+    @apply font-label-sm text-label-sm font-bold text-on-surface;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

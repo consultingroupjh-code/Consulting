@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#3766fe","surface-container":"#e5eeff","primary":"#000001","on-tertiary-fixed-variant":"#005139","surface-dim":"#cbdbf5","primary-fixed-dim":"#bbc6e6","surface-container-lowest":"#ffffff","on-surface-variant":"#45464d","surface":"#f8f9ff","background":"#f8f9ff","primary-container":"#101b33","on-primary-fixed-variant":"#3c4661","surface-container-high":"#dce9ff","outline-variant":"#c6c6ce","inverse-primary":"#bbc6e6","on-primary-fixed":"#101b33","on-primary-container":"#7983a1","tertiary-container":"#002115","surface-container-low":"#eff4ff","outline":"#76777e","on-error-container":"#93000a","tertiary-fixed":"#76fac4","on-secondary-container":"#fffbff","primary-fixed":"#d9e2ff","secondary":"#074ae5","secondary-fixed-dim":"#b7c4ff","on-secondary-fixed-variant":"#0038b6","inverse-on-surface":"#eaf1ff","inverse-surface":"#213145","on-tertiary-container":"#00966c","surface-variant":"#d3e4fe","surface-container-highest":"#d3e4fe","error":"#ba1a1a","secondary-fixed":"#dde1ff","on-error":"#ffffff","on-secondary-fixed":"#001552","on-secondary":"#ffffff","surface-bright":"#f8f9ff","on-surface":"#0b1c30","on-background":"#0b1c30","on-tertiary":"#ffffff","on-tertiary-fixed":"#002115","tertiary-fixed-dim":"#57dda9","on-primary":"#ffffff","surface-tint":"#545e79","tertiary":"#000100","error-container":"#ffdad6"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-mobile":"1rem","space-sm":"0.5rem","margin-desktop":"5rem","gutter-desktop":"2rem","space-xl":"2.5rem","space-lg":"1.5rem","gutter":"1.5rem","space-md":"1rem","margin-tablet":"3rem","margin":"1.5rem","space-xs":"0.25rem"},fontFamily:{"headline-md-mobile":["Manrope"],"label-sm":["Manrope"],"body-md":["Manrope"],"title-lg":["Manrope"],"headline-lg":["Manrope"],"headline-lg-mobile":["Manrope"],"title-md":["Manrope"],"body-sm":["Manrope"],"headline-md":["Manrope"],"headline-sm":["Manrope"],"body-lg":["Manrope"],"display":["Manrope"],"label-md":["Manrope"],"display-mobile":["Manrope"]},fontSize:{"headline-md-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"title-lg":["20px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-md":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-sm":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display":["64px",{"lineHeight":"72px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"display-mobile":["40px",{"lineHeight":"48px","letterSpacing":"-0.025em","fontWeight":"800"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(16,27,51,0.04)]"><div class="h-20 w-full px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-xs" data-path="inicio" href="#"><div class="w-9 h-9 rounded-lg bg-secondary flex items-center justify-center text-on-secondary shadow-[0_2px_8px_-2px_rgba(16,27,51,0.04)]"><span class="material-symbols-outlined text-[22px]">terminal</span></div><div class="flex flex-col"><span class="font-title-md text-title-md font-bold tracking-tight text-on-surface">NEXUS</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase -mt-1">DIGITAL</span></div></a><div class="hidden xl:flex items-center gap-space-xs pl-space-xs"><span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Estudio Disponible</span></div></div><nav class="hidden lg:flex items-center gap-space-xs p-space-xs bg-surface-container-lowest/60 rounded-full shadow-[0_1px_4px_rgba(16,27,51,0.03)]" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-surface-container-high text-on-surface font-bold rounded-lg" data-path="inicio" href="#">Inicio</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="servicios" href="#">Servicios</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="por-que-nosotros" href="#">Por qué Nosotros</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="proceso" href="#">Proceso</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="casos-de-estudio" href="#">Casos de Estudio</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="preguntas-frecuentes" href="#">Preguntas Frecuentes</a><a class="font-label-md text-label-md px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-md"><div class="flex items-center p-0.5 bg-surface-container-low rounded-full shadow-inner"><button class="font-label-sm text-label-sm px-space-sm py-0.5 rounded-full bg-surface-container-lowest text-on-surface font-bold shadow-[0_1px_2px_rgba(16,27,51,0.08)]" type="button">ES</button><button class="font-label-sm text-label-sm px-space-sm py-0.5 rounded-full text-on-surface-variant hover:text-on-surface transition-colors" type="button">EN</button></div><a class="hidden sm:inline-flex items-center justify-center min-w-[140px] px-space-lg py-space-sm rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-secondary-container transition-all shadow-[0_2px_8px_-2px_rgba(16,27,51,0.04)] hover:shadow-[0_12px_32px_-4px_rgba(16,27,51,0.08)]" data-path="contacto" href="#">Agenda una consulta gratuita</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="w-full px-margin-desktop py-space-xl lg:py-24 max-w-[1320px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Columna Izquierda -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+<span class="font-label-sm text-label-sm font-semibold text-secondary uppercase tracking-wider">Agencia Digital en EE. UU. • Bilingüe ES/EN</span>
+</div>
+<!-- Titular Principal -->
+<h1 class="font-display text-display font-extrabold text-on-surface tracking-tight leading-[1.08]">
+          Tu negocio merece una presencia digital que genere <span class="text-secondary bg-clip-text">oportunidades reales.</span>
+</h1>
+<!-- Subtítulo -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          Estrategias de marketing de alto impacto, experiencias web a medida y campañas publicitarias diseñadas para conectar con clientes y escalar con solvencia en el mercado estadounidense.
+        </p>
+<!-- Botones de Acción -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-secondary-container transition-all shadow-md hover:shadow-xl transform hover:-translate-y-0.5" href="#contacto-diagnostico">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+            Agenda una consulta gratuita
+          </a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm hover:shadow-md transition-all hover:bg-surface-container-low" href="#servicios">
+<span class="material-symbols-outlined text-[20px] text-secondary">explore</span>
+            Explora nuestros servicios
+          </a>
+</div>
+<!-- Franja de garantía -->
+<div class="flex items-center gap-space-xs pt-space-sm text-on-surface-variant">
+<div class="w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center text-on-tertiary-container shrink-0">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+<span class="font-body-sm text-body-sm font-medium">Estrategia, creatividad e ingeniería en un solo equipo aliado.</span>
+</div>
+</div>
+<!-- Columna Derecha: Dashboard Interactivo de Rendimiento -->
+<div class="lg:col-span-5 relative">
+<div class="relative bg-surface-container-lowest rounded-2xl p-space-lg shadow-xl overflow-hidden flex flex-col gap-space-md">
+<!-- Header Dashboard -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Rendimiento Consolidado</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Últimos 90 días • Clientes Activos</span>
+</div>
+<div class="flex items-center gap-1.5 px-space-xs py-1 rounded-full bg-surface-container-low">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm font-semibold text-on-tertiary-container">En línea</span>
+</div>
+</div>
+<!-- Métrica Principal con Sparkline SVG -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-display-mobile text-display-mobile font-extrabold text-on-surface tracking-tight">+142%</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant font-medium">Crecimiento medio en prospectos calificados</p>
+</div>
+<span class="px-space-xs py-1 rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> Q1/Q2
+              </span>
+</div>
+<!-- Gráfica SVG de Área Suave -->
+<div class="w-full h-24 pt-space-xs">
+<svg class="w-full h-full overflow-visible" fill="none" preserveaspectratio="none" viewbox="0 0 300 80">
+<defs>
+<lineargradient id="areaGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#074ae5" stop-opacity="0.32"></stop>
+<stop offset="100%" stop-color="#074ae5" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<path d="M0 65 Q 40 55, 75 48 T 150 40 T 225 22 T 300 8 L 300 80 L 0 80 Z" fill="url(#areaGradient)"></path>
+<path d="M0 65 Q 40 55, 75 48 T 150 40 T 225 22 T 300 8" stroke="#074ae5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<circle class="animate-ping" cx="300" cy="8" fill="#074ae5" r="4" style="transform-origin: 300px 8px;"></circle>
+<circle cx="300" cy="8" fill="#074ae5" r="4"></circle>
+</svg>
+</div>
+</div>
+<!-- Grid de Métricas Auxiliares -->
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Optimización Técnica</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">99.8%</span>
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-semibold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">speed</span> Lighthouse Core
+              </span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Retorno Comercial</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">+3.4x</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">payments</span> ROI Validado
+              </span>
+</div>
+</div>
+<!-- Status Bar -->
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant text-label-sm font-label-sm">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">sync</span>
+              Algoritmo de optimización activa
+            </span>
+<span class="text-on-surface font-semibold">EE. UU. Market</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. TRUST BAR / BANDA DE CONFIANZA -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-[1320px] mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+<!-- Tarjeta 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col gap-space-xs group">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">translate</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Atención Bilingüe Nativa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Español &amp; English sin barreras culturales ni técnicas para tu equipo y clientes.</p>
+</div>
+<!-- Tarjeta 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col gap-space-xs group">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">tune</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Planes a tu Medida</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Inversión transparente adaptada puntualmente a las metas financieras de tu negocio.</p>
+</div>
+<!-- Tarjeta 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col gap-space-xs group">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">ads_click</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Diseño UX Pro-Ventas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Arquitectura y flujos concebidos minuciosamente para transformar visitas en ventas.</p>
+</div>
+<!-- Tarjeta 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col gap-space-xs group">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">handshake</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Acompañamiento Continuo</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Transparencia radical, soporte post-lanzamiento y analítica de desempeño periódica.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SECCIÓN DE SERVICIOS -->
+<section class="w-full px-margin-desktop py-space-xl lg:py-24 max-w-[1320px] mx-auto" id="servicios">
+<div class="flex flex-col gap-space-sm mb-space-xl">
+<div class="inline-flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Capacidades Digitales</span>
+</div>
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md">
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight max-w-2xl">
+          Soluciones integrales de ingeniería y mercadotecnia digital
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Ecosistemas escalables pensados para competir con ventaja competitiva en los mercados más dinámicos de Estados Unidos.
+        </p>
+</div>
+</div>
+<!-- Grid 2 filas x 4 columnas -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+<!-- Servicio 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">query_stats</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Crecimiento &amp; Leads</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Marketing Digital</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Estrategias multicanal de visibilidad, prospección activa y captación comercial para generar demanda sostenida en el mercado.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Servicio 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Comunidad &amp; Marca</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Gestión de Redes Sociales</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Contenido estratégico de alto engagement, storytelling visual, gestión de comunidad y calendarización editorial bilingüe.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Servicio 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">campaign</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Paid Media</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Publicidad Digital &amp; Ads</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Campañas de Google Ads (Búsqueda e Intención) y Meta Ads con segmentación precisa geolocalizada en estados clave.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Servicio 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">code</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Desarrollo Web</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Diseño y Desarrollo Web</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sitios web corporativos y landing pages ultrarrápidas, adaptadas al móvil y programadas con arquitectura moderna y segura.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Servicio 5 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">shopping_bag</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Comercio Digital</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Tiendas Online &amp; E-commerce</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pasarelas integradas (Stripe, Shopify, WooCommerce), checkout sin fricción y carritos optimizados para maximizar el ticket medio.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Servicio 6 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">travel_explore</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Posicionamiento Orgánico</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">SEO en Estados Unidos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Optimización técnica, SEO local, Schema markup y posicionamiento bilingüe para captar tráfico con intención directa de compra.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Servicio 7 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">palette</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Identidad Corporativa</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Branding &amp; Sistema Visual</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Logotipos, tipografía institucional, guías de estilo completas y manuales gráficos que proyectan prestigio empresarial.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Servicio 8 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">settings_suggest</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Eficiencia Comercial</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Automatización &amp; CRM</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Formularios inteligentes, nutrición de leads vía email/SMS y flujos conectados a HubSpot, ActiveCampaign o WhatsApp.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold pt-space-md group-hover:gap-2 transition-all" href="#contacto-diagnostico">
+          Conoce el servicio <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 4. POR QUÉ NOSOTROS / ALIANZA ESTRATÉGICA -->
+<section class="w-full bg-surface-container-low py-space-xl lg:py-24">
+<div class="max-w-[1320px] mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Columna Izquierda Editorial -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Alianza Estratégica</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">
+            Más que proveedores, somos tu socio de crecimiento digital.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Eliminamos las falsas promesas del marketing genérico. Diseñamos sistemas comprobados de adquisición con ingeniería limpia, comunicación clara y foco inquebrantable en métricas de negocio reales.
+          </p>
+<div class="pt-space-xs">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-secondary shrink-0 font-bold text-title-md">
+                98%
+              </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface">Retención de Clientes</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Relaciones de largo plazo basadas en resultados continuos.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Columna Derecha: 4 Diferenciales -->
+<div class="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Diferencial 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">forum</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Transparente y sin tecnicismos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Explicamos cada fase, decisión y reporte con total claridad en español o inglés, sin jergas confusas.</p>
+</div>
+<!-- Diferencial 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Código limpio y seguro</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Desarrollos sin dependencias precarias; tiempos de carga inferiores a 1.2s y protocolos de seguridad activos.</p>
+</div>
+<!-- Diferencial 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">trending_up</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Escalabilidad para PyMEs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Soluciones modulares diseñadas para crecer contigo sin obligarte a reconstruir desde cero.</p>
+</div>
+<!-- Diferencial 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">target</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Enfoque estricto en ROI</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cada dólar invertido en infraestructura o pauta debe responder a un objetivo de retorno medible y trazable.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. METODOLOGÍA / PROCESO PASO A PASO -->
+<section class="w-full px-margin-desktop py-space-xl lg:py-24 max-w-[1320px] mx-auto">
+<div class="flex flex-col items-center text-center gap-space-xs mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Ruta de Ejecución</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">
+        Metodología estructurada de 4 pasos
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+        Un proceso predecible, ágil y transparente que mitiga riesgos y acelera el tiempo de lanzamiento al mercado.
+      </p>
+</div>
+<!-- Línea de tiempo horizontal con 4 columnas conectadas -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop relative">
+<!-- Paso 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-display-mobile text-display-mobile font-black text-surface-container-high">01</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Fase Inicial</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Descubrimiento</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Análisis profundo de modelo de negocio, segmentación en EE. UU., competidores directos y fijación de metas cuantitativas.
+          </p>
+</div>
+</div>
+<!-- Paso 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-display-mobile text-display-mobile font-black text-surface-container-high">02</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">architecture</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Planificación</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Estrategia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Hoja de ruta integral, distribución óptima de presupuestos, arquitectura de información y diseño de embudos de conversión.
+          </p>
+</div>
+</div>
+<!-- Paso 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-display-mobile text-display-mobile font-black text-surface-container-high">03</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">brush</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Producción</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Diseño &amp; Ejecución</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Prototipado interactivo UX/UI, codificación de plataformas, redacción persuasiva bilingüe y puesta en marcha de campañas.
+          </p>
+</div>
+</div>
+<!-- Paso 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-display-mobile text-display-mobile font-black text-surface-container-high">04</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">insights</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Evolución</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Medición &amp; Mejora</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Monitoreo continuo de KPIs, pruebas A/B de optimización, iteraciones sistemáticas y reportes periódicos de rentabilidad.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CASOS DE ESTUDIO CONCEPTUALES -->
+<section class="w-full bg-surface-container-low py-space-xl lg:py-24">
+<div class="max-w-[1320px] mx-auto px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Resultados Tangibles</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">
+            Casos de estudio recientes
+          </h2>
+</div>
+<!-- Filtros de Pestañas -->
+<div class="flex items-center gap-1.5 p-1 bg-surface-container-highest/60 rounded-full w-fit">
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold shadow-sm" type="button">Todos</button>
+<button class="px-space-md py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">Diseño Web</button>
+<button class="px-space-md py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">Marketing &amp; Ads</button>
+<button class="px-space-md py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">Branding</button>
+</div>
+</div>
+<!-- Grid de 3 Tarjetas de Proyectos -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter-desktop">
+<!-- Caso 1 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
+<div class="h-56 relative overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern high-tech corporate freight logistics dashboard interface in navy blue and bright blue accents with shipment tracking and route visualizer on a desk in Miami" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-Q6BEWooGsKVtj23-G7i_tghNHrOJPvOt7MbaUjb0roUyJa5wV5yYDqhlx2Bob_ooxrZQcLbxWFj9ynirzXxc5shcaoE4dXlo_tDL5-18QaLVScWh89eroMpRzezEXWu2lX_SvT9iOqV--2_jx0PuhTp_IsVpvP3kZvtEeNFCKGn4S_ElhqEW2g2Ncp1GtKKkAZB1nyPvhfpyyiu7bKVjDtc100Xd364TC8XAe9Vhj1R1oMUzRoQsvQ"/>
+<div class="absolute top-4 left-4 px-space-sm py-1 rounded bg-primary-container text-on-primary font-label-sm text-label-sm font-semibold">
+              Logistics &amp; Tech
+            </div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Desarrollo Web &amp; Software</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Apex Logistics USA</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Plataforma corporativa bilingüe con cotizador de fletes automatizado y sistema de tracking en tiempo real.
+              </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-headline-sm text-headline-sm font-black text-on-tertiary-container">+48%</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Cotizaciones directas</p>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold hover:underline" href="#contacto-diagnostico">
+                Ver Proyecto <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Caso 2 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
+<div class="h-56 relative overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal specialty coffee e-commerce store mockup showing packaging bags and clean seamless shopping cart checkout experience in warm organic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0yCnb8msgrGo9e4zZ5bmlFS2ceJ0liK9eQAoM3TOlH9Y3XVZdvVfmls1gpYo6V6t3h8_9d8tcUerMRt0Q4Jkyadj9bU2KRhl8PcmXQJy5ySFb6e59G-_G8spDEQIUl-fvKW1lzxn2nZTnvdHNDqVJC02K9_wtuyR8bwTiuybnNUWDk8Ta-k4Mg3UT4Objrgq5-mkJ_tVviLE48lDD62l62MyvrapGqjNq1I_S5mNgLW3YN4lILEK0ig"/>
+<div class="absolute top-4 left-4 px-space-sm py-1 rounded bg-primary-container text-on-primary font-label-sm text-label-sm font-semibold">
+              E-Commerce DTC
+            </div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">E-Commerce &amp; CRO</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Solara Coffee Co.</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Tienda online DTC de café de especialidad con checkout ultra optimizado, suscripciones recurrentes y pasarela Stripe.
+              </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-headline-sm text-headline-sm font-black text-on-tertiary-container">+55%</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Conversión checkout</p>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold hover:underline" href="#contacto-diagnostico">
+                Ver Proyecto <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Caso 3 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
+<div class="h-56 relative overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Professional legal firm brand identity and responsive landing page showing high-end corporate bilingual consultation form on modern laptop in corporate office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWaDoZyxdVQP3riuiatMqV1O2zcIQOAxdBtzaEBYnq6WoW5syJ_qTch5S05M0qQBzu6P6ZQdSM0JrfKDD4PIiFNXKCZKZujC1rvsnzOcsOO4xavKLqeOrFeCudNY_DX5mhONEc10L9QR97K3ZMcqHf1jdOzvdeEdvJkAy4Wg1APnW3f3RI3Eg00Ktbw8oY6hhDXBSwOPWDLugekVvjwmL9DaQSfHSkLNlNVd7kjSULparrTR3iM9s4kg"/>
+<div class="absolute top-4 left-4 px-space-sm py-1 rounded bg-primary-container text-on-primary font-label-sm text-label-sm font-semibold">
+              Legal Services
+            </div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Paid Media &amp; Landing Page</span>
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Nova Law Partners</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Campaña Google Search de alta intención y landing page legal de respuesta directa para firmas corporativas en Texas.
+              </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-headline-sm text-headline-sm font-black text-secondary">-41%</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Costo por lead calificado</p>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold hover:underline" href="#contacto-diagnostico">
+                Ver Proyecto <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. COMPROMISO DE CALIDAD AUDITABLE -->
+<section class="w-full px-margin-desktop py-space-xl max-w-[1320px] mx-auto">
+<div class="p-space-xl rounded-2xl bg-surface-container-high/40 shadow-sm flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Estándares Internacionales</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Compromiso de Calidad Auditable</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+          Cada proyecto entregado cumple con estrictas pautas de seguridad, velocidad y accesibilidad técnica.
+        </p>
+</div>
+<!-- Grid de 3 Insignias Técnicas -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-desktop">
+<!-- Badge 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-on-tertiary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<span class="font-title-md text-title-md font-bold text-on-surface">Google Lighthouse 95+</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Puntuación sobresaliente en rendimiento, accesibilidad, SEO técnico y buenas prácticas.</p>
+</div>
+</div>
+<!-- Badge 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">accessibility_new</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<span class="font-title-md text-title-md font-bold text-on-surface">Estándar WCAG 2.2 AA</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Accesibilidad universal y contrastes validados para evitar penalizaciones y barreras operativas.</p>
+</div>
+</div>
+<!-- Badge 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">security</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<span class="font-title-md text-title-md font-bold text-on-surface">Soporte Continuo &amp; SLA</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Acompañamiento post-lanzamiento, actualizaciones de seguridad y copias de respaldo semanales.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. PREGUNTAS FRECUENTES (FAQ) -->
+<section class="w-full px-margin-desktop py-space-xl lg:py-24 max-w-[1320px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<div class="lg:col-span-4 flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Transparencia Total</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">Preguntas Frecuentes</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Todo lo que necesitas saber antes de iniciar una colaboración estratégica con Nexus Digital.
+        </p>
+<div class="pt-space-md">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md font-bold text-secondary" href="#contacto-diagnostico">
+            ¿Tienes otra duda específica? Contáctanos <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- FAQ 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">¿Cómo gestionan proyectos entre EE. UU. y equipos bilingües?</h3>
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Operamos con oficinas en Miami y Austin adaptándonos a los husos horarios del país (EST/CST). Nuestras entregas, contratos e interfaces son nativamente bilingües para máxima solidez comercial.
+          </p>
+</div>
+<!-- FAQ 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">¿Cuánto tiempo toma desarrollar una plataforma web completa?</h3>
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Una landing page de alta conversión suele completarse en 2 a 3 semanas. Plataformas corporativas completas o e-commerce con integraciones a CRM toman entre 4 y 8 semanas según el alcance.
+          </p>
+</div>
+<!-- FAQ 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">¿Qué incluye la garantía de rendimiento y soporte?</h3>
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Garantizamos tiempos de carga óptimos (Lighthouse 90+), monitoreo 24/7 de tiempo activo durante los primeros 60 días sin costo adicional y una sesión quincenal de revisión de métricas clave.
+          </p>
+</div>
+<!-- FAQ 4 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">¿Nosotros seremos los dueños del código y los activos?</h3>
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Absolutamente sí. El 100% de los repositorios, credenciales de hosting, cuentas publicitarias, dominios y manuales de identidad visual pasan a tu propiedad irrestricta desde la entrega formal.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. SECCIÓN CTA FINAL & FORMULARIO DE DIAGNÓSTICO ESTRATÉGICO -->
+<section class="w-full px-margin-desktop py-space-xl lg:py-24 max-w-[1320px] mx-auto" id="contacto-diagnostico">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-stretch">
+<!-- Columna Izquierda: Tarjeta Azul Marino Premium -->
+<div class="lg:col-span-5 bg-primary-container text-on-primary rounded-2xl p-space-xl flex flex-col justify-between shadow-xl relative overflow-hidden">
+<div class="flex flex-col gap-space-md relative z-10">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high/20 w-fit">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed animate-ping"></span>
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-semibold uppercase">Cupos Abiertos Q2 / Q3</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-extrabold tracking-tight leading-tight">
+            ¿Listo para llevar tu negocio al siguiente nivel digital?
+          </h2>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed">
+            Agenda una llamada diagnóstica de 30 minutos sin costo. Evaluaremos tu situación actual y te entregaremos una propuesta técnica y estratégica adaptada a tus metas de crecimiento en EE. UU.
+          </p>
+<div class="flex flex-col gap-space-sm pt-space-xs text-on-primary font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check</span>
+<span>Análisis de oportunidades y competidores</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check</span>
+<span>Revisión técnica de arquitectura y SEO</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check</span>
+<span>Plan de inversión con ROI proyectado</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-xl relative z-10">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:bg-secondary-container transition-all shadow-md" href="#contacto-form">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+            Agenda una consulta gratuita
+          </a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-tertiary-container text-tertiary-fixed font-label-md text-label-md hover:bg-tertiary-container/80 transition-all shadow-sm" href="https://wa.me/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+            Escríbenos por WhatsApp Directo
+          </a>
+</div>
+</div>
+<!-- Columna Derecha: Formulario Completo de Diagnóstico -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-2xl p-space-xl shadow-lg flex flex-col justify-between" id="contacto-form">
+<form class="flex flex-col gap-space-md" onsubmit="event.preventDefault(); alert('¡Gracias! Tu diagnóstico ha sido enviado. Un estratega se contactará en menos de 24 horas.');">
+<div class="flex flex-col">
+<h3 class="font-title-lg text-title-lg font-bold text-on-surface">Solicita tu Diagnóstico Estratégico</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Respuesta personalizada garantizada en menos de 24 horas hábiles.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Nombre -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-bold text-on-surface" for="lead_name">Nombre Completo *</label>
+<input class="h-12 px-space-md rounded-lg bg-surface border-0 focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm" id="lead_name" placeholder="Ej. Carlos Mendoza" required="" type="text"/>
+</div>
+<!-- Email -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-bold text-on-surface" for="lead_email">Correo Profesional *</label>
+<input class="h-12 px-space-md rounded-lg bg-surface border-0 focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm" id="lead_email" placeholder="carlos@tuempresa.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Empresa -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-bold text-on-surface" for="lead_company">Nombre de la Empresa (Opcional)</label>
+<input class="h-12 px-space-md rounded-lg bg-surface border-0 focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm" id="lead_company" placeholder="Tu Empresa LLC" type="text"/>
+</div>
+<!-- Idioma Preferido -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-bold text-on-surface" for="lead_lang">Idioma Preferido *</label>
+<select class="h-12 px-space-md rounded-lg bg-surface border-0 focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm" id="lead_lang">
+<option value="es">Español (Atención en español)</option>
+<option value="en">English (Bilingual communication)</option>
+</select>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Servicio de Interés -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-bold text-on-surface" for="lead_service">Servicio Principal *</label>
+<select class="h-12 px-space-md rounded-lg bg-surface border-0 focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm" id="lead_service">
+<option value="web">Diseño &amp; Desarrollo Web Corporativo</option>
+<option value="ecommerce">Tienda Online &amp; E-commerce</option>
+<option value="marketing">Marketing Digital &amp; Captación de Leads</option>
+<option value="ads">Publicidad Digital (Google / Meta Ads)</option>
+<option value="seo">SEO &amp; Posicionamiento en EE. UU.</option>
+<option value="branding">Branding &amp; Sistema Visual Completo</option>
+<option value="full">Solución Integral Llave en Mano</option>
+</select>
+</div>
+<!-- Presupuesto Estimado -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-bold text-on-surface" for="lead_budget">Presupuesto Estimado *</label>
+<select class="h-12 px-space-md rounded-lg bg-surface border-0 focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm" id="lead_budget">
+<option value="b1">$1,500 – $3,000 USD</option>
+<option selected="" value="b2">$3,000 – $6,000 USD</option>
+<option value="b3">$6,000+ USD</option>
+</select>
+</div>
+</div>
+<!-- Detalles del Proyecto -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-bold text-on-surface" for="lead_message">Detalles del Proyecto o Metas *</label>
+<textarea class="p-space-md rounded-lg bg-surface border-0 focus:ring-2 focus:ring-secondary text-on-surface font-body-sm text-body-sm" id="lead_message" placeholder="Cuéntanos brevemente sobre tus metas comerciales, clientes objetivo o problemas a resolver..." required="" rows="3"></textarea>
+</div>
+<!-- Política de Privacidad -->
+<div class="flex items-center gap-space-xs">
+<input class="w-4 h-4 rounded text-secondary focus:ring-secondary" id="lead_terms" required="" type="checkbox"/>
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="lead_terms">
+              Acepto la política de privacidad y autorizo el contacto comercial de Nexus Digital.
+            </label>
+</div>
+<!-- Botón de Envío -->
+<button class="w-full h-12 inline-flex items-center justify-center gap-space-xs rounded-lg bg-secondary text-on-secondary font-label-md text-label-md font-bold hover:bg-secondary-container transition-all shadow-md hover:shadow-xl mt-space-xs" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+            Enviar Diagnóstico Estratégico
+          </button>
+</form>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl pt-space-xl pb-space-lg"><div class="w-full px-margin-desktop grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-desktop mb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-xs"><div class="w-8 h-8 rounded-lg bg-secondary flex items-center justify-center text-on-secondary"><span class="material-symbols-outlined text-[20px]">terminal</span></div><span class="font-title-md text-title-md font-bold tracking-tight text-on-surface">NEXUS DIGITAL</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Estudio digital bilingüe de ingeniería y diseño para firmas de alto crecimiento en EE. UU. y líderes hispanos de alto impacto. Rendimiento, precisión y arquitectura tecnológica escalable.</p><div class="flex items-center gap-space-xs mt-space-xs"><span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Disponibilidad Q2 / Q3 2025</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md font-bold uppercase tracking-wider text-on-surface mb-space-xs">Navegación</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="inicio" href="#">Inicio</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="servicios" href="#">Servicios</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="por-que-nosotros" href="#">Por qué Nosotros</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="proceso" href="#">Proceso</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="casos-de-estudio" href="#">Casos de Estudio</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="preguntas-frecuentes" href="#">Preguntas Frecuentes</a></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-md text-label-md font-bold uppercase tracking-wider text-on-surface mb-space-xs">Soluciones Core</span><span class="font-body-sm text-body-sm text-on-surface-variant">Arquitectura Cloud &amp; Web Apps</span><span class="font-body-sm text-body-sm text-on-surface-variant">Diseño de Producto &amp; Sistemas UI</span><span class="font-body-sm text-body-sm text-on-surface-variant">Modernización de Plataformas</span><span class="font-body-sm text-body-sm text-on-surface-variant">SaaS &amp; Motores de Conversión</span><span class="font-body-sm text-body-sm text-on-surface-variant">Infraestructura Bilingüe US-LATAM</span></div><div class="lg:col-span-3 flex flex-col gap-space-md"><span class="font-label-md text-label-md font-bold uppercase tracking-wider text-on-surface">Oficinas Virtuales</span><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-lowest shadow-[0_2px_8px_-2px_rgba(16,27,51,0.04)]"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[18px]">location_city</span><span class="font-title-md text-title-md font-semibold text-on-surface">Miami, Florida</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Brickell Financial District<br/>Miami, FL 33131</p></div><div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-lowest shadow-[0_2px_8px_-2px_rgba(16,27,51,0.04)]"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[18px]">apartment</span><span class="font-title-md text-title-md font-semibold text-on-surface">Austin, Texas</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Downtown Innovation Corridor<br/>Austin, TX 78701</p></div></div></div><div class="w-full px-margin-desktop pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md bg-surface-container-high/40 rounded-xl py-space-md"><div class="flex items-center gap-space-md"><p class="font-label-sm text-label-sm text-on-surface-variant">© 2025 Nexus Digital LLC. Todos los derechos reservados.</p></div><div class="flex items-center gap-space-lg"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacidad" href="#">Política de Privacidad</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="terminos" href="#">Términos de Servicio</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="seguridad" href="#">Seguridad &amp; Cumplimiento</a></div></div></footer></body></html>
